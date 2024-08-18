@@ -16,7 +16,3 @@ Bu basit Python ve Tkinter uygulaması ile Vücut Kitle İndeksi (BMI) hesaplaya
 2. Santimetre cinsinden boyunuzu girin.
 3. "Hesapla" butonuna tıklayın.
 4. BMI değeri ve kategori ekranda gösterilecektir.
-
-## Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
