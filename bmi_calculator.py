@@ -3,7 +3,7 @@ import tkinter as tk
 # Pencereyi oluşturuyorum
 root = tk.Tk()
 root.title("TUA BMI Calculator")
-root.geometry("300x150")
+root.geometry("300x175")
 root.config(padx=10, pady=10)
 
 # Giriş alanları - arayüzü
@@ -16,10 +16,6 @@ label_cm = tk.Label(root, text="Enter Your Height (cm)")
 label_cm.pack()
 entry_cm = tk.Entry(root)
 entry_cm.pack()
-
-# Sonucu görmek için
-result_label = tk.Label(root, text="")
-result_label.pack()
 
 def bmi_calculate_button_clicked():
     try:
@@ -59,6 +55,10 @@ def bmi_calculate_button_clicked():
 
 # Hesaplama butonu
 button = tk.Button(root, text="Calculate", command=bmi_calculate_button_clicked)
-button.pack()
+button.pack(pady=10)
+
+# Sonucu görmek için
+result_label = tk.Label(root, text="")
+result_label.pack()
 
 root.mainloop()
